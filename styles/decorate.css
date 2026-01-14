@@ -24,6 +24,9 @@
     color:#424242;
 }
 
+.text-primary{
+    color: #FF900E;
+}
 /* dark03 */
 .text-light-gray{
     color: #727272;
@@ -135,8 +138,16 @@ color: #727272;
 
 /* responsive media quary */
 @media screen and(max-width:576px){
-    .navbar, .nav-links{
+    .navbar,
+     .nav-links,
+     .teams{
         flex-direction: coumn;
     }
+.team-img-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.our-features{
+    margin-left:20px ;
+}
 
 }
